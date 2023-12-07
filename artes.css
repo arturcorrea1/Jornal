@@ -1,0 +1,87 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 60vw;
+    height: 20vh;
+
+}
+
+header{
+    display: flex;
+    background-color:  #eab7a3;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #a75f4a; 
+    border: 5px;
+}
+
+.logocafe{
+    width: 15vw;
+    height: 20vh;
+}
+
+.textotitulo{
+    font-size: 35px;
+    color: #a75f4a;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 200px 200px 200x;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.reportagem{
+    font-size: 15px;
+    box-shadow: 1px 1px 20px #a75f4a;
+    /* background-color: #a75f4a; */
+    padding: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition-property: transform;
+    transition-duration:0.4s ;
+}
+
+.reportagem:hover {
+    transform: scale(1.10);
+    background-color: #a75f4a;
+}
+
+.tit{
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.texto{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    width: 60vw;
+    height: 20vh;
+
+}
+
+header{
+    display: flex;
+    background-color:  #eab7a3;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #a75f4a; 
+    border: 5px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 25px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+
+.informaçoes{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    color: black;
+}
+
+.texto{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 35px;
+}
+
+.foto{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.infoto{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+}

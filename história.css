@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    width: 60vw;
+    height: 20vh;
+
+}
+
+header{
+    display: flex;
+    background-color:  #eab7a3;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #a75f4a; 
+    border: 5px;
+}
+
+.logocafe{
+    width: 15vw;
+    height: 20vh;
+}
+
+.imagem{
+    display: flex;
+    width: 40vw;
+    height: 80vh;
+    margin-left: 80px;
+    padding-bottom: 35px;
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.textoinicio{
+    color: #a75f4a;
+    font-size: 23px;
+
+}
+
+.parte1{        
+    width: 40vw;
+    text-align: center;
+    width: 60vw;
+    align-items: center;
+    margin-top:  100px;
+    margin-right: 20px;
+}
+
+.estrutura{
+    display: flex;
+    gap: 6px;
+    flex-direction: row;
+}

@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 60vw;
+    height: 20vh;
+
+}
+
+header{
+    display: flex;
+    background-color:  #eab7a3;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    background-color: #a75f4a; 
+    border: 5px;
+}
+
+.logocafe{
+    width: 15vw;
+    height: 20vh;
+}
+
+.texto{
+    font-size: 35px;
+    color: #a75f4a;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
